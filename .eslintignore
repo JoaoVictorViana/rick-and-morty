@@ -10,3 +10,4 @@ tsconfig.json
 tailwind.config.js
 postcss.config.js
 vite.config.ts
+vite-env.d.ts
