@@ -1,0 +1,12 @@
+node_modules
+public
+cypress
+*.svg
+*.woff2
+*.css
+*.ico
+tsconfig.json
+.prettierrc.json
+tailwind.config.js
+postcss.config.js
+vite.config.ts
