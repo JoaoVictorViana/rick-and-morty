@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .control-button {
+    @apply p-3 bg-orange-300 hover:bg-orange-500 text-white;
+  }
+}
+
+@font-face {
+  font-family: 'Schwifty';
+  src: url("./assets/fonts/SHLOP.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Schwifty';
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
