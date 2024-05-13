@@ -1,7 +1,6 @@
 import { Control } from './components/Control'
 import { Monitor } from './components/Monitor'
 import { CharacterScreen } from './components/Screen/Character'
-import { LoadingScreen } from './components/Screen/Loading'
 import { MobileScreen } from './components/Screen/Mobile'
 import { useCharacter } from './hooks/characters'
 
